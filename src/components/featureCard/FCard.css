@@ -1,0 +1,26 @@
+.fCard{
+    padding: 1.5rem 1rem 2rem 1rem;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    cursor: pointer;
+    color: var(--color-primary);
+}
+.fCard p{
+    margin-top: 0.5rem;
+    text-align: center;
+    font-weight: 300;
+}
+
+
+@media screen and (max-width: 500px) {
+    .fCard{
+        padding: 1rem 0.5rem 1.5rem 0.5rem;
+        width: 100px;
+        font-weight: 300;
+    }
+}
